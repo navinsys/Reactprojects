@@ -20,3 +20,30 @@ body {
   flex-direction: column;
   justify-content: end;
 }
+
+.container {
+  padding: 0 8px;
+  display: flex;
+  height: 72px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container ul {
+  display: flex;
+  gap: 24px;
+  list-style-type: none;
+  font-weight: 500;
+}
+.contact_section {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.contact_section h1 {
+  font-size: 48px;
+  font-weight: 800;
+  max-width: 80%;
+}
+.contact_section p {
+  font-weight: 500;
+}
